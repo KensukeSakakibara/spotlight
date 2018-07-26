@@ -15,3 +15,7 @@ footer > div {
   max-width: 300px;
   max-height: 300px;
 }
+
+.copyright {
+  text-align: center;
+}

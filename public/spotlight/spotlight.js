@@ -15,14 +15,24 @@ $(function(){
 
       $(".spotlight-box").remove();
       $("body").append(newDivHtml);
-      
+
+      newDiv.ready(function(){
+        $(".spotlight-box").css("opacity", "1");
+        $(".spotlight-image").css("transform", "translate(-50%, -50%) scale(1)");
+      });
+
       return false;
     });
+
+    // preload images
+    var href = $(element).attr("href");
+    $("<img>").attr("src", href);
   });
 
   $(document).on("click", ".spotlight-box", function(){
     $(this).remove();
   });
+  
   $(document).on("click", ".spotlight-image", function(){
     return false;
   });
