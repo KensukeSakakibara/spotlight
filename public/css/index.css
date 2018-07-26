@@ -1,0 +1,17 @@
+:root {
+  --base-width: 1024px;
+  --base-padding: 30px;
+}
+
+header > div,
+article > section,
+footer > div {
+  max-width: var(--base-width);
+  margin: 0 auto;
+  padding: 40px var(--base-padding);
+}
+
+.gallery img {
+  max-width: 300px;
+  max-height: 300px;
+}

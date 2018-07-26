@@ -1,0 +1,112 @@
+:root {
+  --text-color: #333;
+  --base-font: "Hind", sans-serif;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.clearfix > div,
+.clearfix > img {
+  float: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--text-color);
+  font-weight: 300;
+  font-family: var(--base-font);
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 350%;
+  line-height: 120%;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 200%;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 160%;
+  font-weight: 300;
+  margin: 0 0 28px 0;
+}
+
+h4 {
+  font-size: 120%;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+input[type="text"] {
+  border: none;
+  padding: 12px 16px;
+  font-size: 100%;
+  width: 100%;
+  color: var(--text-color);
+  font-family: var(--base-font);
+  border: 1px solid #AAA;
+}
+
+textarea {
+  border: none;
+  width: 100%;
+  height: 100px;
+  padding: 12px 16px;
+  font-size: 100%;
+  color: var(--text-color);
+  font-family: var(--base-font);
+  border: 1px solid #AAA;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #CCC;
+  font-size: 80%;
+  font-family: var(--base-font);
+}
+input[type="text"]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #CCC;
+  font-size: 80%;
+  font-family: var(--base-font);
+}
+input[type="text"]::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: #CCC;
+  font-size: 80%;
+  font-family: var(--base-font);
+}
+
+button {
+  font-size: 90%;
+  border: 1px solid #888;
+  background-color: #fff;
+  padding: 10px 25px;
+  color: var(--text-color);
+  font-weight: 300;
+  font-family: var(--base-font);
+}
+
+.drop-shadow {
+  -webkit-text-shadow: 2px 2px 8px rgba(0,0,0,0.5),2px -2px 8px rgba(0,0,0,0.5),-2px 2px 8px rgba(0,0,0,0.5),-2px -2px 8px rgba(0,0,0,0.5);
+  -moz-text-shadow: 2px 2px 8px rgba(0,0,0,0.5),2px -2px 8px rgba(0,0,0,0.5),-2px 2px 8px rgba(0,0,0,0.5),-2px -2px 8px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5),2px -2px 8px rgba(0,0,0,0.5),-2px 2px 8px rgba(0,0,0,0.5),-2px -2px 8px rgba(0,0,0,0.5);
+}
