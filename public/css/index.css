@@ -19,3 +19,8 @@ footer > div {
 .copyright {
   text-align: center;
 }
+
+.spotlight-data-box {
+  width: 800px;
+  height: 600px;
+}

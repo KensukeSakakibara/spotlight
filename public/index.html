@@ -4,9 +4,9 @@
     <!-- CSS -->
     <link href="//fonts.googleapis.com/css?family=Hind:300" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
+    <link href="spotlight/spotlight.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
-    <link href="spotlight/spotlight.css" rel="stylesheet">
 
     <!-- JS -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,12 +27,26 @@
       <section>
         <h2>Demos</h2>
         <div class="gallery">
-          <a spotlight="gallery" href="img/sample_01.jpg"><img src="img/sample_01.jpg"></a>
-          <a spotlight="gallery" href="img/sample_02.jpg"><img src="img/sample_02.jpg"></a>
-          <a spotlight="gallery" href="img/sample_03.jpg"><img src="img/sample_03.jpg"></a>
-          <a spotlight="gallery" href="img/sample_04.jpg"><img src="img/sample_04.jpg"></a>
-          <a spotlight="gallery" href="img/sample_05.jpg"><img src="img/sample_05.jpg"></a>
-          <a spotlight="gallery" href="img/sample_06.jpg"><img src="img/sample_06.jpg"></a>
+          <a spotlight="gallery" spotlight-title="Sample 01" href="img/sample_01.jpg"><img src="img/sample_01.jpg"></a>
+          <a spotlight="gallery" spotlight-title="Sample 02" href="img/sample_02.jpg"><img src="img/sample_02.jpg"></a>
+          <a spotlight="gallery" spotlight-title="Sample 03" href="img/sample_03.jpg"><img src="img/sample_03.jpg"></a>
+          <a spotlight="gallery" spotlight-title="Sample 04" href="img/sample_04.jpg"><img src="img/sample_04.jpg"></a>
+          <a spotlight="gallery" spotlight-title="Sample 05" href="img/sample_05.jpg"><img src="img/sample_05.jpg"></a>
+          <a spotlight="gallery" spotlight-title="Sample 06" href="img/sample_06.jpg"><img src="img/sample_06.jpg"></a>
+        </div>
+        <div class="gallery">
+          <div spotlight-data="sample-01"><p>sample 01</p></div>
+          <div spotlight-data="sample-02"><p>sample 02</p></div>
+          <div spotlight-data="sample-03"><p>sample 03</p></div>
+          <div spotlight-data="sample-04"><p>sample 04</p></div>
+          <div spotlight-data="sample-05"><p>sample 05</p></div>
+          <div spotlight-data="sample-06"><p>sample 06</p></div>
+          <a spotlight="tag" spotlight-src="sample-01"><img src="img/sample_01.jpg"></a>
+          <a spotlight="tag" spotlight-src="sample-02"><img src="img/sample_02.jpg"></a>
+          <a spotlight="tag" spotlight-src="sample-03"><img src="img/sample_03.jpg"></a>
+          <a spotlight="tag" spotlight-src="sample-04"><img src="img/sample_04.jpg"></a>
+          <a spotlight="tag" spotlight-src="sample-05"><img src="img/sample_05.jpg"></a>
+          <a spotlight="tag" spotlight-src="sample-06"><img src="img/sample_06.jpg"></a>
         </div>
       </section>
     </article>
